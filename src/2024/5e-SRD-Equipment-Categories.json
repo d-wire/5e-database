@@ -1,0 +1,122 @@
+[
+  {
+    "index": "weapon",
+    "name": "Weapon",
+    "description": "Items designed for combat, including simple and martial weapons",
+    "url": "/api/2024/equipment-categories/weapon"
+  },
+  {
+    "index": "simple-weapon",
+    "name": "Simple Weapon", 
+    "description": "Basic weapons that are easy to use and commonly available",
+    "url": "/api/2024/equipment-categories/simple-weapon"
+  },
+  {
+    "index": "martial-weapon",
+    "name": "Martial Weapon",
+    "description": "Military weapons that require more skill and training to use effectively",
+    "url": "/api/2024/equipment-categories/martial-weapon"
+  },
+  {
+    "index": "armor",
+    "name": "Armor",
+    "description": "Protective gear worn to reduce damage from attacks",
+    "url": "/api/2024/equipment-categories/armor"
+  },
+  {
+    "index": "light-armor",
+    "name": "Light Armor",
+    "description": "Flexible protection that doesn't hinder mobility",
+    "url": "/api/2024/equipment-categories/light-armor"
+  },
+  {
+    "index": "medium-armor", 
+    "name": "Medium Armor",
+    "description": "More protective than light armor but heavier and noisier",
+    "url": "/api/2024/equipment-categories/medium-armor"
+  },
+  {
+    "index": "heavy-armor",
+    "name": "Heavy Armor", 
+    "description": "The most protective armor but limits mobility and requires strength",
+    "url": "/api/2024/equipment-categories/heavy-armor"
+  },
+  {
+    "index": "shield",
+    "name": "Shield",
+    "description": "Carried item that provides additional armor class",
+    "url": "/api/2024/equipment-categories/shield"
+  },
+  {
+    "index": "tools",
+    "name": "Tools",
+    "description": "Items that aid in performing specific tasks or crafts",
+    "url": "/api/2024/equipment-categories/tools"
+  },
+  {
+    "index": "artisans-tools",
+    "name": "Artisan's Tools",
+    "description": "Specialized tools for various crafts and trades", 
+    "url": "/api/2024/equipment-categories/artisans-tools"
+  },
+  {
+    "index": "gaming-set",
+    "name": "Gaming Set",
+    "description": "Items used for games of chance and skill",
+    "url": "/api/2024/equipment-categories/gaming-set"
+  },
+  {
+    "index": "musical-instrument",
+    "name": "Musical Instrument",
+    "description": "Instruments used to create music and enhance performances",
+    "url": "/api/2024/equipment-categories/musical-instrument"
+  },
+  {
+    "index": "adventuring-gear",
+    "name": "Adventuring Gear",
+    "description": "General equipment useful for exploration and survival",
+    "url": "/api/2024/equipment-categories/adventuring-gear"
+  },
+  {
+    "index": "equipment-pack",
+    "name": "Equipment Pack",
+    "description": "Pre-assembled collections of adventuring gear",
+    "url": "/api/2024/equipment-categories/equipment-pack"
+  },
+  {
+    "index": "mount",
+    "name": "Mount",
+    "description": "Animals and creatures used for transportation",
+    "url": "/api/2024/equipment-categories/mount"
+  },
+  {
+    "index": "vehicle",
+    "name": "Vehicle", 
+    "description": "Conveyances for land and water travel",
+    "url": "/api/2024/equipment-categories/vehicle"
+  },
+  {
+    "index": "magic-item",
+    "name": "Magic Item",
+    "description": "Items imbued with magical properties and abilities",
+    "url": "/api/2024/equipment-categories/magic-item"
+  },
+  {
+    "index": "potion",
+    "name": "Potion",
+    "description": "Magical liquids that provide temporary effects when consumed",
+    "url": "/api/2024/equipment-categories/potion"
+  },
+  {
+    "index": "scroll",
+    "name": "Scroll",
+    "description": "Magical writings that contain spells",
+    "url": "/api/2024/equipment-categories/scroll"
+  },
+  {
+    "index": "wondrous-item",
+    "name": "Wondrous Item",
+    "description": "Miscellaneous magical items with various enchantments",
+    "url": "/api/2024/equipment-categories/wondrous-item"
+  }
+]

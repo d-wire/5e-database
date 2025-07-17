@@ -1,0 +1,224 @@
+[
+  {
+    "index": "acolyte",
+    "name": "Acolyte",
+    "description": "You spent your early years in a temple, monastery, or other religious community, learning the traditions and practices of your faith.",
+    "ability_scores": [
+      {
+        "name": "Intelligence",
+        "index": "int"
+      },
+      {
+        "name": "Wisdom", 
+        "index": "wis"
+      },
+      {
+        "name": "Charisma",
+        "index": "cha"
+      }
+    ],
+    "feat": {
+      "name": "Magic Initiate (Cleric)",
+      "index": "magic-initiate-cleric"
+    },
+    "skill_proficiencies": [
+      {
+        "name": "Insight",
+        "index": "insight",
+        "url": "/api/2024/skills/insight"
+      },
+      {
+        "name": "Religion",
+        "index": "religion", 
+        "url": "/api/2024/skills/religion"
+      }
+    ],
+    "tool_proficiency": {
+      "name": "Calligrapher's Supplies",
+      "index": "calligraphers-supplies"
+    },
+    "equipment_options": [
+      {
+        "option_a": [
+          "Calligrapher's Supplies",
+          "Book (prayers)",
+          "Holy Symbol", 
+          "Parchment (10 sheets)",
+          "Robe",
+          "8 GP"
+        ],
+        "option_b": [
+          "50 GP"
+        ]
+      }
+    ],
+    "url": "/api/2024/backgrounds/acolyte"
+  },
+  {
+    "index": "criminal",
+    "name": "Criminal", 
+    "description": "You lived outside the law, surviving by theft, smuggling, or other crimes.",
+    "ability_scores": [
+      {
+        "name": "Dexterity",
+        "index": "dex"
+      },
+      {
+        "name": "Constitution",
+        "index": "con"
+      },
+      {
+        "name": "Intelligence", 
+        "index": "int"
+      }
+    ],
+    "feat": {
+      "name": "Alert",
+      "index": "alert"
+    },
+    "skill_proficiencies": [
+      {
+        "name": "Sleight of Hand",
+        "index": "sleight-of-hand",
+        "url": "/api/2024/skills/sleight-of-hand"
+      },
+      {
+        "name": "Stealth",
+        "index": "stealth",
+        "url": "/api/2024/skills/stealth"
+      }
+    ],
+    "tool_proficiency": {
+      "name": "Thieves' Tools",
+      "index": "thieves-tools"
+    },
+    "equipment_options": [
+      {
+        "option_a": [
+          "2 Daggers",
+          "Thieves' Tools",
+          "Crowbar",
+          "2 Pouches",
+          "Traveler's Clothes",
+          "16 GP"
+        ],
+        "option_b": [
+          "50 GP"
+        ]
+      }
+    ],
+    "url": "/api/2024/backgrounds/criminal"
+  },
+  {
+    "index": "sage",
+    "name": "Sage",
+    "description": "You spent years learning the lore of the multiverse, becoming an expert in academic fields and magical research.",
+    "ability_scores": [
+      {
+        "name": "Constitution",
+        "index": "con"
+      },
+      {
+        "name": "Intelligence",
+        "index": "int"
+      },
+      {
+        "name": "Wisdom",
+        "index": "wis"
+      }
+    ],
+    "feat": {
+      "name": "Magic Initiate (Wizard)",
+      "index": "magic-initiate-wizard"
+    },
+    "skill_proficiencies": [
+      {
+        "name": "Arcana",
+        "index": "arcana",
+        "url": "/api/2024/skills/arcana"
+      },
+      {
+        "name": "History",
+        "index": "history",
+        "url": "/api/2024/skills/history"
+      }
+    ],
+    "tool_proficiency": {
+      "name": "Calligrapher's Supplies",
+      "index": "calligraphers-supplies"
+    },
+    "equipment_options": [
+      {
+        "option_a": [
+          "Quarterstaff",
+          "Calligrapher's Supplies", 
+          "Book (history)",
+          "Parchment (8 sheets)",
+          "Robe",
+          "8 GP"
+        ],
+        "option_b": [
+          "50 GP"
+        ]
+      }
+    ],
+    "url": "/api/2024/backgrounds/sage"
+  },
+  {
+    "index": "soldier",
+    "name": "Soldier",
+    "description": "You served in an army, militia, or guard, learning discipline and the arts of war.",
+    "ability_scores": [
+      {
+        "name": "Strength",
+        "index": "str"
+      },
+      {
+        "name": "Dexterity", 
+        "index": "dex"
+      },
+      {
+        "name": "Constitution",
+        "index": "con"
+      }
+    ],
+    "feat": {
+      "name": "Savage Attacker",
+      "index": "savage-attacker"
+    },
+    "skill_proficiencies": [
+      {
+        "name": "Athletics",
+        "index": "athletics",
+        "url": "/api/2024/skills/athletics"
+      },
+      {
+        "name": "Intimidation",
+        "index": "intimidation",
+        "url": "/api/2024/skills/intimidation"
+      }
+    ],
+    "tool_proficiency": {
+      "name": "Gaming Set (choose one)",
+      "index": "gaming-set"
+    },
+    "equipment_options": [
+      {
+        "option_a": [
+          "Spear",
+          "Shortbow",
+          "20 Arrows",
+          "Gaming Set",
+          "Healer's Kit",
+          "Quiver",
+          "Traveler's Clothes",
+          "14 GP"
+        ],
+        "option_b": [
+          "50 GP"
+        ]
+      }
+    ],
+    "url": "/api/2024/backgrounds/soldier"
+  }
+]

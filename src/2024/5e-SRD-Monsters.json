@@ -1,0 +1,488 @@
+[
+  {
+    "index": "aboleth",
+    "name": "Aboleth",
+    "size": "Large",
+    "type": "aberration",
+    "alignment": "lawful evil",
+    "armor_class": [
+      {
+        "type": "natural",
+        "value": 17
+      }
+    ],
+    "hit_points": 150,
+    "hit_dice": "20d10",
+    "hit_points_roll": "20d10+40",
+    "speed": {
+      "walk": "10 ft.",
+      "swim": "40 ft."
+    },
+    "strength": 21,
+    "dexterity": 9,
+    "constitution": 15,
+    "intelligence": 18,
+    "wisdom": 15,
+    "charisma": 18,
+    "proficiencies": [
+      {
+        "value": 12,
+        "proficiency": {
+          "index": "skill-history",
+          "name": "Skill: History",
+          "url": "/api/2024/proficiencies/skill-history"
+        }
+      },
+      {
+        "value": 10,
+        "proficiency": {
+          "index": "skill-perception",
+          "name": "Skill: Perception",
+          "url": "/api/2024/proficiencies/skill-perception"
+        }
+      },
+      {
+        "value": 5,
+        "proficiency": {
+          "index": "saving-throw-str",
+          "name": "Saving Throw: STR",
+          "url": "/api/2024/proficiencies/saving-throw-str"
+        }
+      },
+      {
+        "value": 8,
+        "proficiency": {
+          "index": "saving-throw-int",
+          "name": "Saving Throw: INT",
+          "url": "/api/2024/proficiencies/saving-throw-int"
+        }
+      },
+      {
+        "value": 6,
+        "proficiency": {
+          "index": "saving-throw-wis",
+          "name": "Saving Throw: WIS",
+          "url": "/api/2024/proficiencies/saving-throw-wis"
+        }
+      },
+      {
+        "value": 6,
+        "proficiency": {
+          "index": "saving-throw-con",
+          "name": "Saving Throw: CON",
+          "url": "/api/2024/proficiencies/saving-throw-con"
+        }
+      }
+    ],
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [],
+    "senses": {
+      "darkvision": "120 ft.",
+      "passive_perception": 20
+    },
+    "languages": "Deep Speech, telepathy 120 ft.",
+    "challenge_rating": 10,
+    "proficiency_bonus": 4,
+    "xp": 5900,
+    "special_abilities": [
+      {
+        "name": "Amphibious",
+        "desc": "The aboleth can breathe air and water."
+      },
+      {
+        "name": "Mucus Cloud",
+        "desc": "While underwater, the aboleth is surrounded by mucus. Constitution Saving Throw: DC 14, each creature in a 5-foot Emanation originating from the aboleth at the end of the aboleth's turn. Failure: The target is cursed. Until the curse ends, the target's skin becomes slimy, the target can breathe air and water, and it can't regain Hit Points unless it is underwater."
+      },
+      {
+        "name": "Probing Telepathy",
+        "desc": "If a creature the aboleth can see communicates telepathically with the aboleth, the aboleth learns the creature's greatest desires."
+      },
+      {
+        "name": "Legendary Resistance",
+        "desc": "If the aboleth fails a saving throw, it can choose to succeed instead (3/Day, or 4/Day in Lair)."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "The aboleth makes two Tentacle attacks and uses either Consume Memories or Dominate Mind if available."
+      },
+      {
+        "name": "Tentacle",
+        "desc": "Melee Attack Roll: +9, reach 15 ft. Hit: 12 (2d6 + 5) Bludgeoning damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 14) from one of four tentacles.",
+        "attack_bonus": 9,
+        "damage": [
+          {
+            "damage_type": {
+              "index": "bludgeoning",
+              "name": "Bludgeoning",
+              "url": "/api/2024/damage-types/bludgeoning"
+            },
+            "damage_dice": "2d6+5"
+          }
+        ]
+      },
+      {
+        "name": "Consume Memories",
+        "desc": "Intelligence Saving Throw: DC 16, one creature within 30 feet that is Charmed or Grappled by the aboleth. Failure: 10 (3d6) Psychic damage. Success: Half damage."
+      },
+      {
+        "name": "Dominate Mind",
+        "desc": "Wisdom Saving Throw: DC 16, one creature the aboleth can see within 30 feet. Failure: The target has the Charmed condition until the aboleth dies or is on a different plane of existence from the target. (2/Day)"
+      }
+    ],
+    "legendary_actions": [
+      {
+        "name": "Lash",
+        "desc": "The aboleth makes one Tentacle attack."
+      }
+    ],
+    "url": "/api/2024/monsters/aboleth"
+  },
+  {
+    "index": "air-elemental",
+    "name": "Air Elemental",
+    "size": "Large",
+    "type": "elemental",
+    "alignment": "neutral",
+    "armor_class": [
+      {
+        "type": "natural",
+        "value": 15
+      }
+    ],
+    "hit_points": 90,
+    "hit_dice": "12d10",
+    "hit_points_roll": "12d10+24",
+    "speed": {
+      "walk": "10 ft.",
+      "fly": "90 ft."
+    },
+    "strength": 14,
+    "dexterity": 20,
+    "constitution": 14,
+    "intelligence": 6,
+    "wisdom": 10,
+    "charisma": 6,
+    "proficiencies": [],
+    "damage_vulnerabilities": [],
+    "damage_resistances": ["lightning", "thunder", "bludgeoning", "piercing", "slashing"],
+    "damage_immunities": ["poison"],
+    "condition_immunities": ["exhaustion", "grappled", "paralyzed", "petrified", "poisoned", "prone", "restrained", "unconscious"],
+    "senses": {
+      "darkvision": "60 ft.",
+      "passive_perception": 10
+    },
+    "languages": "Auran",
+    "challenge_rating": 5,
+    "proficiency_bonus": 3,
+    "xp": 1800,
+    "special_abilities": [
+      {
+        "name": "Air Form",
+        "desc": "The elemental can enter a creature's space and stop there. It can move through a space as narrow as 1 inch without expending extra movement to do so."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "The elemental makes two Thunderous Slam attacks."
+      },
+      {
+        "name": "Thunderous Slam",
+        "desc": "Melee Attack Roll: +8, reach 10 ft. Hit: 14 (2d8 + 5) Thunder damage.",
+        "attack_bonus": 8,
+        "damage": [
+          {
+            "damage_type": {
+              "index": "thunder",
+              "name": "Thunder",
+              "url": "/api/2024/damage-types/thunder"
+            },
+            "damage_dice": "2d8+5"
+          }
+        ]
+      },
+      {
+        "name": "Whirlwind",
+        "desc": "Strength Saving Throw: DC 13, one Medium or smaller creature in the elemental's space. Failure: 24 (4d10 + 2) Thunder damage, and the target is pushed up to 20 feet straight away from the elemental and has the Prone condition. Success: Half damage only. (Recharge 4-6)"
+      }
+    ],
+    "url": "/api/2024/monsters/air-elemental"
+  },
+  {
+    "index": "goblin",
+    "name": "Goblin",
+    "size": "Small",
+    "type": "humanoid",
+    "alignment": "typically chaotic evil",
+    "armor_class": [
+      {
+        "type": "armor",
+        "value": 15,
+        "armor": [
+          {
+            "index": "leather-armor",
+            "name": "Leather Armor",
+            "url": "/api/2024/equipment/leather-armor"
+          },
+          {
+            "index": "shield",
+            "name": "Shield", 
+            "url": "/api/2024/equipment/shield"
+          }
+        ]
+      }
+    ],
+    "hit_points": 7,
+    "hit_dice": "2d6",
+    "hit_points_roll": "2d6",
+    "speed": {
+      "walk": "30 ft."
+    },
+    "strength": 8,
+    "dexterity": 14,
+    "constitution": 10,
+    "intelligence": 10,
+    "wisdom": 8,
+    "charisma": 8,
+    "proficiencies": [
+      {
+        "value": 6,
+        "proficiency": {
+          "index": "skill-stealth",
+          "name": "Skill: Stealth",
+          "url": "/api/2024/proficiencies/skill-stealth"
+        }
+      }
+    ],
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [],
+    "senses": {
+      "darkvision": "60 ft.",
+      "passive_perception": 9
+    },
+    "languages": "Common, Goblin",
+    "challenge_rating": 0.25,
+    "proficiency_bonus": 2,
+    "xp": 50,
+    "actions": [
+      {
+        "name": "Scimitar",
+        "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage.",
+        "attack_bonus": 4,
+        "damage": [
+          {
+            "damage_type": {
+              "index": "slashing",
+              "name": "Slashing",
+              "url": "/api/2024/damage-types/slashing"
+            },
+            "damage_dice": "1d6+2"
+          }
+        ]
+      },
+      {
+        "name": "Shortbow",
+        "desc": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+        "attack_bonus": 4,
+        "damage": [
+          {
+            "damage_type": {
+              "index": "piercing",
+              "name": "Piercing",
+              "url": "/api/2024/damage-types/piercing"
+            },
+            "damage_dice": "1d6+2"
+          }
+        ]
+      }
+    ],
+    "bonus_actions": [
+      {
+        "name": "Nimble Escape",
+        "desc": "The goblin takes the Disengage or Hide action."
+      }
+    ],
+    "url": "/api/2024/monsters/goblin"
+  },
+  {
+    "index": "orc",
+    "name": "Orc",
+    "size": "Medium",
+    "type": "humanoid",
+    "alignment": "typically chaotic evil",
+    "armor_class": [
+      {
+        "type": "armor",
+        "value": 13,
+        "armor": [
+          {
+            "index": "hide-armor",
+            "name": "Hide Armor",
+            "url": "/api/2024/equipment/hide-armor"
+          }
+        ]
+      }
+    ],
+    "hit_points": 15,
+    "hit_dice": "2d8",
+    "hit_points_roll": "2d8+6",
+    "speed": {
+      "walk": "30 ft."
+    },
+    "strength": 16,
+    "dexterity": 12,
+    "constitution": 16,
+    "intelligence": 7,
+    "wisdom": 11,
+    "charisma": 10,
+    "proficiencies": [
+      {
+        "value": 5,
+        "proficiency": {
+          "index": "skill-intimidation",
+          "name": "Skill: Intimidation",
+          "url": "/api/2024/proficiencies/skill-intimidation"
+        }
+      }
+    ],
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [],
+    "senses": {
+      "darkvision": "60 ft.",
+      "passive_perception": 10
+    },
+    "languages": "Common, Orc",
+    "challenge_rating": 0.5,
+    "proficiency_bonus": 2,
+    "xp": 100,
+    "actions": [
+      {
+        "name": "Greataxe",
+        "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9 (1d12 + 3) slashing damage.",
+        "attack_bonus": 5,
+        "damage": [
+          {
+            "damage_type": {
+              "index": "slashing",
+              "name": "Slashing",
+              "url": "/api/2024/damage-types/slashing"
+            },
+            "damage_dice": "1d12+3"
+          }
+        ]
+      },
+      {
+        "name": "Javelin",
+        "desc": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 6 (1d6 + 3) piercing damage.",
+        "attack_bonus": 5,
+        "damage": [
+          {
+            "damage_type": {
+              "index": "piercing",
+              "name": "Piercing",
+              "url": "/api/2024/damage-types/piercing"
+            },
+            "damage_dice": "1d6+3"
+          }
+        ]
+      }
+    ],
+    "special_abilities": [
+      {
+        "name": "Aggressive",
+        "desc": "As a bonus action, the orc can move up to its speed toward a hostile creature that it can see."
+      }
+    ],
+    "url": "/api/2024/monsters/orc"
+  },
+  {
+    "index": "dire-wolf",
+    "name": "Dire Wolf",
+    "size": "Large",
+    "type": "beast",
+    "alignment": "unaligned",
+    "armor_class": [
+      {
+        "type": "natural",
+        "value": 14
+      }
+    ],
+    "hit_points": 37,
+    "hit_dice": "5d10",
+    "hit_points_roll": "5d10+10",
+    "speed": {
+      "walk": "50 ft."
+    },
+    "strength": 17,
+    "dexterity": 15,
+    "constitution": 15,
+    "intelligence": 3,
+    "wisdom": 12,
+    "charisma": 7,
+    "proficiencies": [
+      {
+        "value": 3,
+        "proficiency": {
+          "index": "skill-perception",
+          "name": "Skill: Perception",
+          "url": "/api/2024/proficiencies/skill-perception"
+        }
+      },
+      {
+        "value": 4,
+        "proficiency": {
+          "index": "skill-stealth",
+          "name": "Skill: Stealth",
+          "url": "/api/2024/proficiencies/skill-stealth"
+        }
+      }
+    ],
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [],
+    "senses": {
+      "passive_perception": 13
+    },
+    "languages": "",
+    "challenge_rating": 1,
+    "proficiency_bonus": 2,
+    "xp": 200,
+    "special_abilities": [
+      {
+        "name": "Keen Hearing and Smell",
+        "desc": "The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+      },
+      {
+        "name": "Pack Tactics",
+        "desc": "The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally isn't incapacitated."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Bite",
+        "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.",
+        "attack_bonus": 5,
+        "damage": [
+          {
+            "damage_type": {
+              "index": "piercing",
+              "name": "Piercing",
+              "url": "/api/2024/damage-types/piercing"
+            },
+            "damage_dice": "2d6+3"
+          }
+        ]
+      }
+    ],
+    "url": "/api/2024/monsters/dire-wolf"
+  }
+]

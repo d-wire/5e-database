@@ -1,0 +1,109 @@
+[
+  {
+    "name": "Playing the Game",
+    "index": "playing-the-game",
+    "desc": "# Playing the Game\n\nD&D is a conversation between you and your friends, with the game's rules helping you to have a fun adventure together. One player is the Dungeon Master (DM), who facilitates the conversation by describing situations and playing the roles of creatures in the game world. The other players create characters who explore that world.",
+    "subsections": [
+      {
+        "name": "Rhythm of Play",
+        "index": "rhythm-of-play",
+        "url": "/api/2024/rule-sections/rhythm-of-play"
+      },
+      {
+        "name": "The Six Abilities",
+        "index": "the-six-abilities",
+        "url": "/api/2024/rule-sections/the-six-abilities"
+      },
+      {
+        "name": "D20 Tests",
+        "index": "d20-tests",
+        "url": "/api/2024/rule-sections/d20-tests"
+      },
+      {
+        "name": "Advantage and Disadvantage",
+        "index": "advantage-and-disadvantage",
+        "url": "/api/2024/rule-sections/advantage-and-disadvantage"
+      },
+      {
+        "name": "Proficiency",
+        "index": "proficiency",
+        "url": "/api/2024/rule-sections/proficiency"
+      }
+    ],
+    "url": "/api/2024/rules/playing-the-game"
+  },
+  {
+    "name": "Combat",
+    "index": "combat",
+    "desc": "# Combat\n\nCombat follows these steps:\n1. **Determine Surprise.** The DM determines whether anyone involved in the combat encounter is surprised.\n2. **Establish Positions.** The DM decides where all the characters and creatures involved in the combat encounter are located.\n3. **Roll Initiative.** Everyone involved in the combat encounter rolls Initiative, determining the order of combatants' turns.\n4. **Take Turns.** Each participant in the battle takes a turn in Initiative order.\n5. **Begin the Next Round.** When everyone involved in the combat has had one turn, the round ends. Repeat step 4 until the fighting stops.",
+    "subsections": [
+      {
+        "name": "The Order of Combat",
+        "index": "the-order-of-combat",
+        "url": "/api/2024/rule-sections/the-order-of-combat"
+      },
+      {
+        "name": "Movement and Position",
+        "index": "movement-and-position",
+        "url": "/api/2024/rule-sections/movement-and-position"
+      },
+      {
+        "name": "Making an Attack",
+        "index": "making-an-attack",
+        "url": "/api/2024/rule-sections/making-an-attack"
+      },
+      {
+        "name": "Damage and Healing",
+        "index": "damage-and-healing",
+        "url": "/api/2024/rule-sections/damage-and-healing"
+      }
+    ],
+    "url": "/api/2024/rules/combat"
+  },
+  {
+    "name": "Character Creation",
+    "index": "character-creation",
+    "desc": "# Character Creation\n\nYour first step in playing an adventurer in the D&D game is to imagine and create a character of your own. Your character is a combination of game statistics, roleplaying hooks, and your imagination.",
+    "subsections": [
+      {
+        "name": "Choose a Character Sheet",
+        "index": "choose-a-character-sheet",
+        "url": "/api/2024/rule-sections/choose-a-character-sheet"
+      },
+      {
+        "name": "Create Your Character",
+        "index": "create-your-character",
+        "url": "/api/2024/rule-sections/create-your-character"
+      },
+      {
+        "name": "Level Advancement",
+        "index": "level-advancement",
+        "url": "/api/2024/rule-sections/level-advancement"
+      },
+      {
+        "name": "Multiclassing",
+        "index": "multiclassing",
+        "url": "/api/2024/rule-sections/multiclassing"
+      }
+    ],
+    "url": "/api/2024/rules/character-creation"
+  },
+  {
+    "name": "Spells",
+    "index": "spells",
+    "desc": "# Spells\n\nMagic permeates D&D worlds and often appears in the form of a spell. This chapter provides the rules for casting spells. Different character classes have distinctive ways of learning and preparing their spells, and creatures use spells in unique ways.",
+    "subsections": [
+      {
+        "name": "Gaining Spells",
+        "index": "gaining-spells",
+        "url": "/api/2024/rule-sections/gaining-spells"
+      },
+      {
+        "name": "Casting Spells",
+        "index": "casting-spells",
+        "url": "/api/2024/rule-sections/casting-spells"
+      }
+    ],
+    "url": "/api/2024/rules/spells"
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "name": "D20 Tests",
+    "index": "d20-tests",
+    "desc": "When the outcome of an action is uncertain, the game uses a d20 test to determine success or failure. You roll a d20 and add modifiers. You compare the total to a target number called a Difficulty Class (DC). If the total equals or exceeds the DC, the d20 test succeeds. Otherwise, it fails.\n\nThe three main kinds of d20 tests are ability checks, attack rolls, and saving throws.",
+    "url": "/api/2024/rule-sections/d20-tests"
+  },
+  {
+    "name": "Ability Checks",
+    "index": "ability-checks", 
+    "desc": "An ability check is a d20 test that represents a character's attempt to overcome a challenge. The DM calls for an ability check when a character attempts an action (other than an attack) that has a chance of failure. When the outcome is uncertain, the dice determine the results.\n\nFor every ability check, the DM decides which of the six abilities is relevant to the task at hand and the difficulty of the task, represented by a Difficulty Class.",
+    "url": "/api/2024/rule-sections/ability-checks"
+  },
+  {
+    "name": "Saving Throws",
+    "index": "saving-throws",
+    "desc": "A saving throw—also called a save—represents an attempt to avoid or resist a threat. You don't normally decide to make a saving throw; you are forced to make one because your character is at risk of harm.\n\nTo make a saving throw, roll a d20 and add the appropriate ability modifier. For example, you use your Dexterity modifier for a Dexterity saving throw.",
+    "url": "/api/2024/rule-sections/saving-throws"
+  },
+  {
+    "name": "Attack Rolls",
+    "index": "attack-rolls",
+    "desc": "When you make an attack, your attack roll determines whether the attack hits or misses. To make an attack roll, roll a d20 and add the appropriate modifiers. If the total of the roll plus modifiers equals or exceeds the target's Armor Class (AC), the attack hits.",
+    "url": "/api/2024/rule-sections/attack-rolls"
+  },
+  {
+    "name": "Advantage and Disadvantage",
+    "index": "advantage-and-disadvantage",
+    "desc": "Sometimes you have Advantage or Disadvantage on a d20 test. If you have Advantage on a d20 test, roll two d20s, and use the higher roll. If you have Disadvantage, roll two d20s, and use the lower roll.\n\nIf you have both Advantage and Disadvantage on the same roll, you have neither, and you roll one d20. This is true even if you have multiple sources of Advantage or Disadvantage; in such a case, you still roll only one d20.",
+    "url": "/api/2024/rule-sections/advantage-and-disadvantage"
+  },
+  {
+    "name": "Proficiency",
+    "index": "proficiency",
+    "desc": "Characters have a Proficiency Bonus determined by level. You add this bonus to a d20 test when your character is proficient in the activity being tested. For example, if your character is proficient in the Athletics skill, you add your Proficiency Bonus to Strength (Athletics) checks.\n\nYour Proficiency Bonus can't be added to a single die roll more than once. For example, if two different rules say you can add your Proficiency Bonus to a Wisdom saving throw, you nevertheless add the bonus only once when you make the save.",
+    "url": "/api/2024/rule-sections/proficiency"
+  },
+  {
+    "name": "Actions",
+    "index": "actions",
+    "desc": "When you take an action, you choose from the options available to everyone—such as Attack, Dodge, or Help—or you use one of your class features, spells, or other abilities. When you describe an action not detailed elsewhere in the rules, the DM tells you whether that action is possible and what kind of die roll you need to make, if any.",
+    "url": "/api/2024/rule-sections/actions"
+  },
+  {
+    "name": "The Order of Combat",
+    "index": "the-order-of-combat", 
+    "desc": "A typical combat encounter is a clash between two sides, a flurry of weapon swings, feints, parries, footwork, and spellcasting. The game organizes the chaos of combat into a cycle of rounds and turns. A round represents about 6 seconds in the game world. During a round, each participant in a battle takes a turn.",
+    "url": "/api/2024/rule-sections/the-order-of-combat"
+  },
+  {
+    "name": "Movement and Position",
+    "index": "movement-and-position",
+    "desc": "In combat, characters and creatures are in constant motion, often using movement and position to gain the upper hand.\n\nOn your turn, you can move a distance up to your Speed. You can use as much or as little of your Speed as you like on your turn, following the rules here.",
+    "url": "/api/2024/rule-sections/movement-and-position"
+  },
+  {
+    "name": "Making an Attack",
+    "index": "making-an-attack",
+    "desc": "Whether you're striking with a melee weapon, firing a weapon at range, or making an attack roll as part of a spell, an attack has a simple structure:\n\n1. **Choose a target.** Pick a target within your attack's range: a creature, an object, or a location.\n2. **Determine modifiers.** The DM determines whether the target has Cover and whether you have Advantage or Disadvantage against the target.\n3. **Resolve the attack.** You make the attack roll. On a hit, you roll damage, unless the particular attack has rules that specify otherwise.",
+    "url": "/api/2024/rule-sections/making-an-attack"
+  },
+  {
+    "name": "Damage and Healing",
+    "index": "damage-and-healing",
+    "desc": "Injury and the risk of death are constant companions of those who explore the worlds of D&D. The thrust of a sword, a well-placed arrow, or a blast of flame from a fireball spell all have the potential to damage, or even kill, the hardiest of creatures.",
+    "url": "/api/2024/rule-sections/damage-and-healing"
+  },
+  {
+    "name": "Hit Points", 
+    "index": "hit-points",
+    "desc": "Hit Points represent a combination of physical and mental durability, the will to live, and luck. Creatures with more Hit Points are more difficult to kill. Those with fewer Hit Points are more fragile.\n\nA creature's current Hit Points (usually just called Hit Points) can be any number from the creature's Hit Point maximum down to 0.",
+    "url": "/api/2024/rule-sections/hit-points"
+  }
+]

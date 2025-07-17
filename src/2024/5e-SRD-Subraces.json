@@ -1,0 +1,277 @@
+[
+  {
+    "index": "black-dragonborn",
+    "name": "Black Dragonborn",
+    "race": {
+      "index": "dragonborn",
+      "name": "Dragonborn",
+      "url": "/api/2024/races/dragonborn"
+    },
+    "desc": "Your lineage stems from a black dragon progenitor, granting you powers of acid.",
+    "ability_bonuses": [],
+    "starting_proficiencies": [],
+    "languages": [],
+    "racial_traits": [
+      {
+        "index": "acid-breath-weapon",
+        "name": "Acid Breath Weapon",
+        "url": "/api/2024/traits/acid-breath-weapon"
+      },
+      {
+        "index": "acid-damage-resistance",
+        "name": "Acid Damage Resistance",
+        "url": "/api/2024/traits/acid-damage-resistance"
+      }
+    ],
+    "url": "/api/2024/subraces/black-dragonborn"
+  },
+  {
+    "index": "blue-dragonborn",
+    "name": "Blue Dragonborn",
+    "race": {
+      "index": "dragonborn",
+      "name": "Dragonborn",
+      "url": "/api/2024/races/dragonborn"
+    },
+    "desc": "Your lineage stems from a blue dragon progenitor, granting you powers of lightning.",
+    "ability_bonuses": [],
+    "starting_proficiencies": [],
+    "languages": [],
+    "racial_traits": [
+      {
+        "index": "lightning-breath-weapon",
+        "name": "Lightning Breath Weapon",
+        "url": "/api/2024/traits/lightning-breath-weapon"
+      },
+      {
+        "index": "lightning-damage-resistance",
+        "name": "Lightning Damage Resistance",
+        "url": "/api/2024/traits/lightning-damage-resistance"
+      }
+    ],
+    "url": "/api/2024/subraces/blue-dragonborn"
+  },
+  {
+    "index": "brass-dragonborn",
+    "name": "Brass Dragonborn",
+    "race": {
+      "index": "dragonborn",
+      "name": "Dragonborn",
+      "url": "/api/2024/races/dragonborn"
+    },
+    "desc": "Your lineage stems from a brass dragon progenitor, granting you powers of fire.",
+    "ability_bonuses": [],
+    "starting_proficiencies": [],
+    "languages": [],
+    "racial_traits": [
+      {
+        "index": "fire-breath-weapon",
+        "name": "Fire Breath Weapon",
+        "url": "/api/2024/traits/fire-breath-weapon"
+      },
+      {
+        "index": "fire-damage-resistance",
+        "name": "Fire Damage Resistance",
+        "url": "/api/2024/traits/fire-damage-resistance"
+      }
+    ],
+    "url": "/api/2024/subraces/brass-dragonborn"
+  },
+  {
+    "index": "bronze-dragonborn",
+    "name": "Bronze Dragonborn",
+    "race": {
+      "index": "dragonborn",
+      "name": "Dragonborn",
+      "url": "/api/2024/races/dragonborn"
+    },
+    "desc": "Your lineage stems from a bronze dragon progenitor, granting you powers of lightning.",
+    "ability_bonuses": [],
+    "starting_proficiencies": [],
+    "languages": [],
+    "racial_traits": [
+      {
+        "index": "lightning-breath-weapon",
+        "name": "Lightning Breath Weapon",
+        "url": "/api/2024/traits/lightning-breath-weapon"
+      },
+      {
+        "index": "lightning-damage-resistance",
+        "name": "Lightning Damage Resistance",
+        "url": "/api/2024/traits/lightning-damage-resistance"
+      }
+    ],
+    "url": "/api/2024/subraces/bronze-dragonborn"
+  },
+  {
+    "index": "copper-dragonborn",
+    "name": "Copper Dragonborn",
+    "race": {
+      "index": "dragonborn",
+      "name": "Dragonborn",
+      "url": "/api/2024/races/dragonborn"
+    },
+    "desc": "Your lineage stems from a copper dragon progenitor, granting you powers of acid.",
+    "ability_bonuses": [],
+    "starting_proficiencies": [],
+    "languages": [],
+    "racial_traits": [
+      {
+        "index": "acid-breath-weapon",
+        "name": "Acid Breath Weapon",
+        "url": "/api/2024/traits/acid-breath-weapon"
+      },
+      {
+        "index": "acid-damage-resistance",
+        "name": "Acid Damage Resistance",
+        "url": "/api/2024/traits/acid-damage-resistance"
+      }
+    ],
+    "url": "/api/2024/subraces/copper-dragonborn"
+  },
+  {
+    "index": "drow-lineage",
+    "name": "Drow Lineage",
+    "race": {
+      "index": "elf",
+      "name": "Elf",
+      "url": "/api/2024/races/elf"
+    },
+    "desc": "You are part of an elven lineage that grants you supernatural abilities tied to the Underdark.",
+    "ability_bonuses": [],
+    "starting_proficiencies": [],
+    "languages": [],
+    "racial_traits": [
+      {
+        "index": "dancing-lights-cantrip",
+        "name": "Dancing Lights",
+        "url": "/api/2024/traits/dancing-lights-cantrip"
+      },
+      {
+        "index": "faerie-fire-spell",
+        "name": "Faerie Fire",
+        "url": "/api/2024/traits/faerie-fire-spell"
+      },
+      {
+        "index": "darkness-spell",
+        "name": "Darkness",
+        "url": "/api/2024/traits/darkness-spell"
+      }
+    ],
+    "url": "/api/2024/subraces/drow-lineage"
+  },
+  {
+    "index": "high-elf-lineage",
+    "name": "High Elf Lineage",
+    "race": {
+      "index": "elf",
+      "name": "Elf",
+      "url": "/api/2024/races/elf"
+    },
+    "desc": "You are part of an elven lineage that grants you supernatural abilities tied to arcane magic.",
+    "ability_bonuses": [],
+    "starting_proficiencies": [],
+    "languages": [],
+    "racial_traits": [
+      {
+        "index": "prestidigitation-cantrip",
+        "name": "Prestidigitation",
+        "url": "/api/2024/traits/prestidigitation-cantrip"
+      },
+      {
+        "index": "detect-magic-spell",
+        "name": "Detect Magic",
+        "url": "/api/2024/traits/detect-magic-spell"
+      },
+      {
+        "index": "misty-step-spell",
+        "name": "Misty Step",
+        "url": "/api/2024/traits/misty-step-spell"
+      }
+    ],
+    "url": "/api/2024/subraces/high-elf-lineage"
+  },
+  {
+    "index": "wood-elf-lineage",
+    "name": "Wood Elf Lineage",
+    "race": {
+      "index": "elf",
+      "name": "Elf",
+      "url": "/api/2024/races/elf"
+    },
+    "desc": "You are part of an elven lineage that grants you supernatural abilities tied to nature.",
+    "ability_bonuses": [],
+    "starting_proficiencies": [],
+    "languages": [],
+    "racial_traits": [
+      {
+        "index": "druidcraft-cantrip",
+        "name": "Druidcraft",
+        "url": "/api/2024/traits/druidcraft-cantrip"
+      },
+      {
+        "index": "longstrider-spell",
+        "name": "Longstrider",
+        "url": "/api/2024/traits/longstrider-spell"
+      },
+      {
+        "index": "pass-without-trace-spell",
+        "name": "Pass without Trace",
+        "url": "/api/2024/traits/pass-without-trace-spell"
+      }
+    ],
+    "url": "/api/2024/subraces/wood-elf-lineage"
+  },
+  {
+    "index": "forest-gnome-lineage",
+    "name": "Forest Gnome Lineage",
+    "race": {
+      "index": "gnome",
+      "name": "Gnome",
+      "url": "/api/2024/races/gnome"
+    },
+    "desc": "You are part of a gnomish lineage connected to forest magic and communication with beasts.",
+    "ability_bonuses": [],
+    "starting_proficiencies": [],
+    "languages": [],
+    "racial_traits": [
+      {
+        "index": "minor-illusion-cantrip",
+        "name": "Minor Illusion",
+        "url": "/api/2024/traits/minor-illusion-cantrip"
+      },
+      {
+        "index": "speak-with-animals-spell",
+        "name": "Speak with Animals",
+        "url": "/api/2024/traits/speak-with-animals-spell"
+      }
+    ],
+    "url": "/api/2024/subraces/forest-gnome-lineage"
+  },
+  {
+    "index": "rock-gnome-lineage",
+    "name": "Rock Gnome Lineage",
+    "race": {
+      "index": "gnome",
+      "name": "Gnome",
+      "url": "/api/2024/races/gnome"
+    },
+    "desc": "You are part of a gnomish lineage connected to invention and mechanical aptitude.",
+    "ability_bonuses": [],
+    "starting_proficiencies": [],
+    "languages": [],
+    "racial_traits": [
+      {
+        "index": "mending-cantrip",
+        "name": "Mending",
+        "url": "/api/2024/traits/mending-cantrip"
+      },
+      {
+        "index": "magic-weapon-spell",
+        "name": "Magic Weapon",
+        "url": "/api/2024/traits/magic-weapon-spell"
+      }
+    ],
+    "url": "/api/2024/subraces/rock-gnome-lineage"
+  }
+]

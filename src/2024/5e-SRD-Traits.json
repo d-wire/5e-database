@@ -1,0 +1,471 @@
+[
+  {
+    "index": "darkvision",
+    "races": [
+      {
+        "index": "dragonborn",
+        "name": "Dragonborn",
+        "url": "/api/2024/races/dragonborn"
+      },
+      {
+        "index": "dwarf",
+        "name": "Dwarf",
+        "url": "/api/2024/races/dwarf"
+      },
+      {
+        "index": "elf",
+        "name": "Elf",
+        "url": "/api/2024/races/elf"
+      },
+      {
+        "index": "gnome",
+        "name": "Gnome",
+        "url": "/api/2024/races/gnome"
+      },
+      {
+        "index": "goliath",
+        "name": "Goliath",
+        "url": "/api/2024/races/goliath"
+      },
+      {
+        "index": "halfling",
+        "name": "Halfling",
+        "url": "/api/2024/races/halfling"
+      },
+      {
+        "index": "orc",
+        "name": "Orc",
+        "url": "/api/2024/races/orc"
+      },
+      {
+        "index": "tiefling",
+        "name": "Tiefling",
+        "url": "/api/2024/races/tiefling"
+      }
+    ],
+    "subraces": [],
+    "name": "Darkvision",
+    "desc": [
+      "You can see in Dim Light within 60 feet of yourself as if it were Bright Light and in Darkness as if it were Dim Light. You discern colors in that Darkness only as shades of gray."
+    ],
+    "proficiencies": [],
+    "url": "/api/2024/traits/darkvision"
+  },
+  {
+    "index": "draconic-ancestry",
+    "races": [
+      {
+        "index": "dragonborn",
+        "name": "Dragonborn",
+        "url": "/api/2024/races/dragonborn"
+      }
+    ],
+    "subraces": [],
+    "name": "Draconic Ancestry",
+    "desc": [
+      "Your lineage stems from a dragon progenitor. Choose the kind of dragon from the Draconic Ancestors table. Your choice affects your Breath Weapon and Damage Resistance traits."
+    ],
+    "proficiencies": [],
+    "url": "/api/2024/traits/draconic-ancestry"
+  },
+  {
+    "index": "breath-weapon",
+    "races": [
+      {
+        "index": "dragonborn",
+        "name": "Dragonborn",
+        "url": "/api/2024/races/dragonborn"
+      }
+    ],
+    "subraces": [],
+    "name": "Breath Weapon",
+    "desc": [
+      "When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (your choice). Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier plus your Proficiency Bonus). On a failed save, the creature takes 1d10 damage of the type associated with your draconic ancestry. On a successful save, it takes half as much damage.",
+      "This damage increases by 1d10 when you reach levels 5 (2d10), 11 (3d10), and 17 (4d10).",
+      "You can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest."
+    ],
+    "proficiencies": [],
+    "url": "/api/2024/traits/breath-weapon"
+  },
+  {
+    "index": "damage-resistance",
+    "races": [
+      {
+        "index": "dragonborn",
+        "name": "Dragonborn",
+        "url": "/api/2024/races/dragonborn"
+      }
+    ],
+    "subraces": [],
+    "name": "Damage Resistance",
+    "desc": [
+      "You have Resistance to the damage type associated with your draconic ancestry."
+    ],
+    "proficiencies": [],
+    "url": "/api/2024/traits/damage-resistance"
+  },
+  {
+    "index": "dwarven-resilience",
+    "races": [
+      {
+        "index": "dwarf",
+        "name": "Dwarf",
+        "url": "/api/2024/races/dwarf"
+      }
+    ],
+    "subraces": [],
+    "name": "Dwarven Resilience",
+    "desc": [
+      "You have Resistance to Poison damage. You also have Advantage on saving throws you make to avoid or end the Poisoned condition."
+    ],
+    "proficiencies": [],
+    "url": "/api/2024/traits/dwarven-resilience"
+  },
+  {
+    "index": "dwarven-toughness",
+    "races": [
+      {
+        "index": "dwarf",
+        "name": "Dwarf",
+        "url": "/api/2024/races/dwarf"
+      }
+    ],
+    "subraces": [],
+    "name": "Dwarven Toughness",
+    "desc": [
+      "Your Hit Point maximum increases by 1, and it increases by 1 again whenever you gain a level."
+    ],
+    "proficiencies": [],
+    "url": "/api/2024/traits/dwarven-toughness"
+  },
+  {
+    "index": "stonecunning",
+    "races": [
+      {
+        "index": "dwarf",
+        "name": "Dwarf",
+        "url": "/api/2024/races/dwarf"
+      }
+    ],
+    "subraces": [],
+    "name": "Stonecunning",
+    "desc": [
+      "As a Bonus Action, you can give yourself Tremorsense with a range of 60 feet for 10 minutes. You must finish a Long Rest before you can use this trait again."
+    ],
+    "proficiencies": [],
+    "url": "/api/2024/traits/stonecunning"
+  },
+  {
+    "index": "elven-lineage",
+    "races": [
+      {
+        "index": "elf",
+        "name": "Elf",
+        "url": "/api/2024/races/elf"
+      }
+    ],
+    "subraces": [],
+    "name": "Elven Lineage",
+    "desc": [
+      "You are part of a lineage that grants you supernatural abilities. Choose a lineage from the Elven Lineages table. You gain the level 1 benefit of that lineage.",
+      "When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in this way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.",
+      "Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage)."
+    ],
+    "proficiencies": [],
+    "url": "/api/2024/traits/elven-lineage"
+  },
+  {
+    "index": "fey-ancestry",
+    "races": [
+      {
+        "index": "elf",
+        "name": "Elf",
+        "url": "/api/2024/races/elf"
+      }
+    ],
+    "subraces": [],
+    "name": "Fey Ancestry",
+    "desc": [
+      "You have Advantage on saving throws you make to avoid or end the Charmed condition."
+    ],
+    "proficiencies": [],
+    "url": "/api/2024/traits/fey-ancestry"
+  },
+  {
+    "index": "keen-senses",
+    "races": [
+      {
+        "index": "elf",
+        "name": "Elf",
+        "url": "/api/2024/races/elf"
+      }
+    ],
+    "subraces": [],
+    "name": "Keen Senses",
+    "desc": [
+      "You have proficiency in the Perception skill."
+    ],
+    "proficiencies": [
+      {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    ],
+    "url": "/api/2024/traits/keen-senses"
+  },
+  {
+    "index": "trance",
+    "races": [
+      {
+        "index": "elf",
+        "name": "Elf",
+        "url": "/api/2024/races/elf"
+      }
+    ],
+    "subraces": [],
+    "name": "Trance",
+    "desc": [
+      "You don't need to sleep, and magic can't force you to sleep. You can finish a Long Rest in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness.",
+      "Whenever you finish this trance, you can change your season, and you can gain two proficiencies that you don't have, each one with a weapon or a tool of your choice selected from the \"Equipment\" chapter. You mystically acquire these proficiencies by drawing them from shared elven memory, and you retain them until you finish your next Long Rest."
+    ],
+    "proficiencies": [],
+    "url": "/api/2024/traits/trance"
+  },
+  {
+    "index": "gnomish-cunning",
+    "races": [
+      {
+        "index": "gnome",
+        "name": "Gnome",
+        "url": "/api/2024/races/gnome"
+      }
+    ],
+    "subraces": [],
+    "name": "Gnomish Cunning",
+    "desc": [
+      "You have Advantage on Intelligence, Wisdom, and Charisma saving throws."
+    ],
+    "proficiencies": [],
+    "url": "/api/2024/traits/gnomish-cunning"
+  },
+  {
+    "index": "gnomish-lineage",
+    "races": [
+      {
+        "index": "gnome",
+        "name": "Gnome",
+        "url": "/api/2024/races/gnome"
+      }
+    ],
+    "subraces": [],
+    "name": "Gnomish Lineage",
+    "desc": [
+      "You are part of a lineage that grants you supernatural abilities. Choose one of the following options; whichever one you choose, Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage):",
+      "Forest Gnome. You know the Minor Illusion cantrip. You also always have the Speak with Animals spell prepared. You can cast it without a spell slot a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.",
+      "Rock Gnome. You know the Mending cantrip. You also always have the Magic Weapon spell prepared. You can cast it without a spell slot once, and you regain the ability to cast it in this way when you finish a Long Rest."
+    ],
+    "proficiencies": [],
+    "url": "/api/2024/traits/gnomish-lineage"
+  },
+  {
+    "index": "giant-ancestry",
+    "races": [
+      {
+        "index": "goliath",
+        "name": "Goliath",
+        "url": "/api/2024/races/goliath"
+      }
+    ],
+    "subraces": [],
+    "name": "Giant Ancestry",
+    "desc": [
+      "You are descended from Giants. Choose one of the following benefits—a damage type associated with your Giant ancestry:",
+      "Cloud Giant (Cold damage). When you take Cold damage, you can use your Reaction to reduce that damage by an amount equal to your Proficiency Bonus. You can use this trait a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.",
+      "Fire Giant (Fire damage). When you take Fire damage, you can use your Reaction to reduce that damage by an amount equal to your Proficiency Bonus. You can use this trait a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.",
+      "Frost Giant (Cold damage). When you take Cold damage, you can use your Reaction to reduce that damage by an amount equal to your Proficiency Bonus. You can use this trait a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.",
+      "Hill Giant (Force damage). When you take Force damage, you can use your Reaction to reduce that damage by an amount equal to your Proficiency Bonus. You can use this trait a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.",
+      "Stone Giant (Force damage). When you take Force damage, you can use your Reaction to reduce that damage by an amount equal to your Proficiency Bonus. You can use this trait a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.",
+      "Storm Giant (Lightning or Thunder damage; choose when you select this ancestry). When you take Lightning or Thunder damage (whichever one you chose), you can use your Reaction to reduce that damage by an amount equal to your Proficiency Bonus. You can use this trait a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest."
+    ],
+    "proficiencies": [],
+    "url": "/api/2024/traits/giant-ancestry"
+  },
+  {
+    "index": "large-form",
+    "races": [
+      {
+        "index": "goliath",
+        "name": "Goliath",
+        "url": "/api/2024/races/goliath"
+      }
+    ],
+    "subraces": [],
+    "name": "Large Form",
+    "desc": [
+      "Starting at character level 5, you can change your size to Large as a Bonus Action if you're in a space large enough to accommodate the change. This transformation lasts for 10 minutes or until you end it (no action required). For that duration, you have Advantage on Strength checks, and your Speed increases by 10 feet. Once you use this trait, you can't use it again until you finish a Long Rest."
+    ],
+    "proficiencies": [],
+    "url": "/api/2024/traits/large-form"
+  },
+  {
+    "index": "powerful-build",
+    "races": [
+      {
+        "index": "goliath",
+        "name": "Goliath",
+        "url": "/api/2024/races/goliath"
+      },
+      {
+        "index": "orc",
+        "name": "Orc",
+        "url": "/api/2024/races/orc"
+      }
+    ],
+    "subraces": [],
+    "name": "Powerful Build",
+    "desc": [
+      "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+    ],
+    "proficiencies": [],
+    "url": "/api/2024/traits/powerful-build"
+  },
+  {
+    "index": "brave",
+    "races": [
+      {
+        "index": "halfling",
+        "name": "Halfling",
+        "url": "/api/2024/races/halfling"
+      }
+    ],
+    "subraces": [],
+    "name": "Brave",
+    "desc": [
+      "You have Advantage on saving throws you make to avoid or end the Frightened condition."
+    ],
+    "proficiencies": [],
+    "url": "/api/2024/traits/brave"
+  },
+  {
+    "index": "halfling-nimbleness",
+    "races": [
+      {
+        "index": "halfling",
+        "name": "Halfling",
+        "url": "/api/2024/races/halfling"
+      }
+    ],
+    "subraces": [],
+    "name": "Halfling Nimbleness",
+    "desc": [
+      "You can move through the space of any creature that is of a size larger than yours, but you can't stop there."
+    ],
+    "proficiencies": [],
+    "url": "/api/2024/traits/halfling-nimbleness"
+  },
+  {
+    "index": "luck",
+    "races": [
+      {
+        "index": "halfling",
+        "name": "Halfling",
+        "url": "/api/2024/races/halfling"
+      }
+    ],
+    "subraces": [],
+    "name": "Luck",
+    "desc": [
+      "When you roll a 1 on the d20 of a D20 Test, you can reroll the die, and you must use the new roll."
+    ],
+    "proficiencies": [],
+    "url": "/api/2024/traits/luck"
+  },
+  {
+    "index": "naturally-stealthy",
+    "races": [
+      {
+        "index": "halfling",
+        "name": "Halfling",
+        "url": "/api/2024/races/halfling"
+      }
+    ],
+    "subraces": [],
+    "name": "Naturally Stealthy",
+    "desc": [
+      "You can take the Hide action even when you are obscured only by a creature that is at least one size larger than you."
+    ],
+    "proficiencies": [],
+    "url": "/api/2024/traits/naturally-stealthy"
+  },
+  {
+    "index": "adrenaline-rush",
+    "races": [
+      {
+        "index": "orc",
+        "name": "Orc",
+        "url": "/api/2024/races/orc"
+      }
+    ],
+    "subraces": [],
+    "name": "Adrenaline Rush",
+    "desc": [
+      "You can take the Dash action as a Bonus Action. When you do so, you gain a number of Temporary Hit Points equal to your Proficiency Bonus. You can use this trait a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest."
+    ],
+    "proficiencies": [],
+    "url": "/api/2024/traits/adrenaline-rush"
+  },
+  {
+    "index": "relentless-endurance",
+    "races": [
+      {
+        "index": "orc",
+        "name": "Orc",
+        "url": "/api/2024/races/orc"
+      }
+    ],
+    "subraces": [],
+    "name": "Relentless Endurance",
+    "desc": [
+      "When you are reduced to 0 Hit Points but not killed outright, you can drop to 1 Hit Point instead. Once you use this trait, you can't do so again until you finish a Long Rest."
+    ],
+    "proficiencies": [],
+    "url": "/api/2024/traits/relentless-endurance"
+  },
+  {
+    "index": "fiendish-legacy",
+    "races": [
+      {
+        "index": "tiefling",
+        "name": "Tiefling",
+        "url": "/api/2024/races/tiefling"
+      }
+    ],
+    "subraces": [],
+    "name": "Fiendish Legacy",
+    "desc": [
+      "You are the recipient of a fiendish legacy that grants you supernatural abilities. Choose a legacy from the Fiendish Legacies table. You gain the level 1 benefit of that legacy.",
+      "Starting at character level 3, and again at character level 5, you gain the ability to cast a higher-level spell with this trait, as shown on the table. Once you cast the spell with this trait, you can't cast that spell with it again until you finish a Long Rest; however, you can cast the spell using any spell slots you have of the appropriate level.",
+      "Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy)."
+    ],
+    "proficiencies": [],
+    "url": "/api/2024/traits/fiendish-legacy"
+  },
+  {
+    "index": "otherworldly-presence",
+    "races": [
+      {
+        "index": "tiefling",
+        "name": "Tiefling",
+        "url": "/api/2024/races/tiefling"
+      }
+    ],
+    "subraces": [],
+    "name": "Otherworldly Presence",
+    "desc": [
+      "You know the Thaumaturgy cantrip. When you cast it with this trait, the spell uses the same spellcasting ability you use for your Fiendish Legacy trait."
+    ],
+    "proficiencies": [],
+    "url": "/api/2024/traits/otherworldly-presence"
+  }
+]

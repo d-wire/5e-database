@@ -1,0 +1,612 @@
+[
+  {
+    "index": "light-armor",
+    "type": "Armor",
+    "name": "Light Armor",
+    "description": "Light armor favors agile adventurers since it offers some protection without sacrificing mobility",
+    "classes": [
+      {
+        "index": "barbarian",
+        "name": "Barbarian",
+        "url": "/api/2024/classes/barbarian"
+      },
+      {
+        "index": "bard",
+        "name": "Bard", 
+        "url": "/api/2024/classes/bard"
+      },
+      {
+        "index": "cleric",
+        "name": "Cleric",
+        "url": "/api/2024/classes/cleric"
+      },
+      {
+        "index": "druid",
+        "name": "Druid",
+        "url": "/api/2024/classes/druid"
+      },
+      {
+        "index": "ranger",
+        "name": "Ranger",
+        "url": "/api/2024/classes/ranger"
+      },
+      {
+        "index": "rogue",
+        "name": "Rogue",
+        "url": "/api/2024/classes/rogue"
+      },
+      {
+        "index": "warlock",
+        "name": "Warlock",
+        "url": "/api/2024/classes/warlock"
+      }
+    ],
+    "races": [],
+    "url": "/api/2024/proficiencies/light-armor",
+    "reference": {
+      "index": "light-armor",
+      "name": "Light Armor",
+      "url": "/api/2024/equipment-categories/light-armor"
+    }
+  },
+  {
+    "index": "medium-armor",
+    "type": "Armor",
+    "name": "Medium Armor",
+    "description": "Medium armor offers more protection than light armor, but it also impairs movement more",
+    "classes": [
+      {
+        "index": "barbarian",
+        "name": "Barbarian", 
+        "url": "/api/2024/classes/barbarian"
+      },
+      {
+        "index": "cleric",
+        "name": "Cleric",
+        "url": "/api/2024/classes/cleric"
+      },
+      {
+        "index": "druid",
+        "name": "Druid",
+        "url": "/api/2024/classes/druid"
+      },
+      {
+        "index": "fighter",
+        "name": "Fighter",
+        "url": "/api/2024/classes/fighter"
+      },
+      {
+        "index": "paladin",
+        "name": "Paladin",
+        "url": "/api/2024/classes/paladin"
+      },
+      {
+        "index": "ranger",
+        "name": "Ranger",
+        "url": "/api/2024/classes/ranger"
+      }
+    ],
+    "races": [],
+    "url": "/api/2024/proficiencies/medium-armor",
+    "reference": {
+      "index": "medium-armor",
+      "name": "Medium Armor",
+      "url": "/api/2024/equipment-categories/medium-armor"
+    }
+  },
+  {
+    "index": "heavy-armor",
+    "type": "Armor",
+    "name": "Heavy Armor",
+    "description": "Of all the armor categories, heavy armor offers the best protection",
+    "classes": [
+      {
+        "index": "fighter",
+        "name": "Fighter",
+        "url": "/api/2024/classes/fighter"
+      },
+      {
+        "index": "paladin",
+        "name": "Paladin",
+        "url": "/api/2024/classes/paladin"
+      }
+    ],
+    "races": [],
+    "url": "/api/2024/proficiencies/heavy-armor",
+    "reference": {
+      "index": "heavy-armor",
+      "name": "Heavy Armor",
+      "url": "/api/2024/equipment-categories/heavy-armor"
+    }
+  },
+  {
+    "index": "shields",
+    "type": "Armor",
+    "name": "Shields",
+    "description": "A shield is made from wood or metal and is carried in one hand",
+    "classes": [
+      {
+        "index": "barbarian",
+        "name": "Barbarian",
+        "url": "/api/2024/classes/barbarian"
+      },
+      {
+        "index": "cleric",
+        "name": "Cleric",
+        "url": "/api/2024/classes/cleric"
+      },
+      {
+        "index": "druid",
+        "name": "Druid",
+        "url": "/api/2024/classes/druid"
+      },
+      {
+        "index": "fighter",
+        "name": "Fighter",
+        "url": "/api/2024/classes/fighter"
+      },
+      {
+        "index": "paladin",
+        "name": "Paladin",
+        "url": "/api/2024/classes/paladin"
+      },
+      {
+        "index": "ranger",
+        "name": "Ranger",
+        "url": "/api/2024/classes/ranger"
+      }
+    ],
+    "races": [],
+    "url": "/api/2024/proficiencies/shields",
+    "reference": {
+      "index": "shields",
+      "name": "Shields",
+      "url": "/api/2024/equipment-categories/shields"
+    }
+  },
+  {
+    "index": "simple-weapons",
+    "type": "Weapons",
+    "name": "Simple Weapons",
+    "description": "Simple weapons include clubs, daggers, darts, javelins, maces, quarterstaffs, sickles, slings, and spears",
+    "classes": [
+      {
+        "index": "barbarian",
+        "name": "Barbarian",
+        "url": "/api/2024/classes/barbarian"
+      },
+      {
+        "index": "bard",
+        "name": "Bard",
+        "url": "/api/2024/classes/bard"
+      },
+      {
+        "index": "cleric",
+        "name": "Cleric",
+        "url": "/api/2024/classes/cleric"
+      },
+      {
+        "index": "druid",
+        "name": "Druid",
+        "url": "/api/2024/classes/druid"
+      },
+      {
+        "index": "fighter",
+        "name": "Fighter",
+        "url": "/api/2024/classes/fighter"
+      },
+      {
+        "index": "monk",
+        "name": "Monk",
+        "url": "/api/2024/classes/monk"
+      },
+      {
+        "index": "paladin",
+        "name": "Paladin",
+        "url": "/api/2024/classes/paladin"
+      },
+      {
+        "index": "ranger",
+        "name": "Ranger",
+        "url": "/api/2024/classes/ranger"
+      },
+      {
+        "index": "rogue",
+        "name": "Rogue",
+        "url": "/api/2024/classes/rogue"
+      },
+      {
+        "index": "sorcerer",
+        "name": "Sorcerer",
+        "url": "/api/2024/classes/sorcerer"
+      },
+      {
+        "index": "warlock",
+        "name": "Warlock",
+        "url": "/api/2024/classes/warlock"
+      },
+      {
+        "index": "wizard",
+        "name": "Wizard",
+        "url": "/api/2024/classes/wizard"
+      }
+    ],
+    "races": [],
+    "url": "/api/2024/proficiencies/simple-weapons",
+    "reference": {
+      "index": "simple-weapons",
+      "name": "Simple Weapons",
+      "url": "/api/2024/equipment-categories/simple-weapons"
+    }
+  },
+  {
+    "index": "martial-weapons",
+    "type": "Weapons",
+    "name": "Martial Weapons",
+    "description": "Martial weapons include battleaxes, flails, glaives, greataxes, greatswords, halberds, lances, longswords, mauls, morningstars, pikes, rapiers, scimitars, shortswords, tridents, war picks, warhammers, and whips",
+    "classes": [
+      {
+        "index": "barbarian",
+        "name": "Barbarian",
+        "url": "/api/2024/classes/barbarian"
+      },
+      {
+        "index": "fighter",
+        "name": "Fighter",
+        "url": "/api/2024/classes/fighter"
+      },
+      {
+        "index": "paladin",
+        "name": "Paladin",
+        "url": "/api/2024/classes/paladin"
+      },
+      {
+        "index": "ranger",
+        "name": "Ranger",
+        "url": "/api/2024/classes/ranger"
+      }
+    ],
+    "races": [],
+    "url": "/api/2024/proficiencies/martial-weapons",
+    "reference": {
+      "index": "martial-weapons",
+      "name": "Martial Weapons",
+      "url": "/api/2024/equipment-categories/martial-weapons"
+    }
+  },
+  {
+    "index": "skill-acrobatics",
+    "type": "Skills",
+    "name": "Skill: Acrobatics",
+    "description": "Your Dexterity (Acrobatics) check covers your attempt to stay on your feet in a tricky situation",
+    "classes": [
+      {
+        "index": "bard",
+        "name": "Bard",
+        "url": "/api/2024/classes/bard"
+      },
+      {
+        "index": "fighter",
+        "name": "Fighter",
+        "url": "/api/2024/classes/fighter"
+      },
+      {
+        "index": "monk",
+        "name": "Monk",
+        "url": "/api/2024/classes/monk"
+      },
+      {
+        "index": "rogue",
+        "name": "Rogue",
+        "url": "/api/2024/classes/rogue"
+      }
+    ],
+    "races": [],
+    "url": "/api/2024/proficiencies/skill-acrobatics",
+    "reference": {
+      "index": "acrobatics",
+      "name": "Acrobatics",
+      "url": "/api/2024/skills/acrobatics"
+    }
+  },
+  {
+    "index": "skill-animal-handling",
+    "type": "Skills",
+    "name": "Skill: Animal Handling",
+    "description": "When there is any question whether you can calm down a domesticated animal, keep a mount from getting spooked, or intuit an animal's intentions",
+    "classes": [
+      {
+        "index": "barbarian",
+        "name": "Barbarian",
+        "url": "/api/2024/classes/barbarian"
+      },
+      {
+        "index": "bard",
+        "name": "Bard",
+        "url": "/api/2024/classes/bard"
+      },
+      {
+        "index": "druid",
+        "name": "Druid",
+        "url": "/api/2024/classes/druid"
+      },
+      {
+        "index": "fighter",
+        "name": "Fighter",
+        "url": "/api/2024/classes/fighter"
+      },
+      {
+        "index": "ranger",
+        "name": "Ranger",
+        "url": "/api/2024/classes/ranger"
+      }
+    ],
+    "races": [],
+    "url": "/api/2024/proficiencies/skill-animal-handling",
+    "reference": {
+      "index": "animal-handling",
+      "name": "Animal Handling",
+      "url": "/api/2024/skills/animal-handling"
+    }
+  },
+  {
+    "index": "skill-athletics",
+    "type": "Skills",
+    "name": "Skill: Athletics",
+    "description": "Your Strength (Athletics) check covers difficult situations you encounter while climbing, jumping, or swimming",
+    "classes": [
+      {
+        "index": "barbarian",
+        "name": "Barbarian",
+        "url": "/api/2024/classes/barbarian"
+      },
+      {
+        "index": "bard",
+        "name": "Bard",
+        "url": "/api/2024/classes/bard"
+      },
+      {
+        "index": "fighter",
+        "name": "Fighter",
+        "url": "/api/2024/classes/fighter"
+      },
+      {
+        "index": "monk",
+        "name": "Monk",
+        "url": "/api/2024/classes/monk"
+      },
+      {
+        "index": "paladin",
+        "name": "Paladin",
+        "url": "/api/2024/classes/paladin"
+      },
+      {
+        "index": "ranger",
+        "name": "Ranger",
+        "url": "/api/2024/classes/ranger"
+      },
+      {
+        "index": "rogue",
+        "name": "Rogue",
+        "url": "/api/2024/classes/rogue"
+      }
+    ],
+    "races": [],
+    "url": "/api/2024/proficiencies/skill-athletics",
+    "reference": {
+      "index": "athletics",
+      "name": "Athletics",
+      "url": "/api/2024/skills/athletics"
+    }
+  },
+  {
+    "index": "saving-throw-str",
+    "type": "Saving Throws",
+    "name": "Saving Throw: STR",
+    "description": "Strength saving throws",
+    "classes": [
+      {
+        "index": "barbarian",
+        "name": "Barbarian",
+        "url": "/api/2024/classes/barbarian"
+      },
+      {
+        "index": "fighter",
+        "name": "Fighter",
+        "url": "/api/2024/classes/fighter"
+      },
+      {
+        "index": "monk",
+        "name": "Monk",
+        "url": "/api/2024/classes/monk"
+      },
+      {
+        "index": "ranger",
+        "name": "Ranger",
+        "url": "/api/2024/classes/ranger"
+      }
+    ],
+    "races": [],
+    "url": "/api/2024/proficiencies/saving-throw-str",
+    "reference": {
+      "index": "str",
+      "name": "STR",
+      "url": "/api/2024/ability-scores/str"
+    }
+  },
+  {
+    "index": "saving-throw-dex",
+    "type": "Saving Throws",
+    "name": "Saving Throw: DEX",
+    "description": "Dexterity saving throws",
+    "classes": [
+      {
+        "index": "bard",
+        "name": "Bard",
+        "url": "/api/2024/classes/bard"
+      },
+      {
+        "index": "monk",
+        "name": "Monk",
+        "url": "/api/2024/classes/monk"
+      },
+      {
+        "index": "ranger",
+        "name": "Ranger",
+        "url": "/api/2024/classes/ranger"
+      },
+      {
+        "index": "rogue",
+        "name": "Rogue",
+        "url": "/api/2024/classes/rogue"
+      }
+    ],
+    "races": [],
+    "url": "/api/2024/proficiencies/saving-throw-dex",
+    "reference": {
+      "index": "dex",
+      "name": "DEX",
+      "url": "/api/2024/ability-scores/dex"
+    }
+  },
+  {
+    "index": "saving-throw-con",
+    "type": "Saving Throws",
+    "name": "Saving Throw: CON",
+    "description": "Constitution saving throws",
+    "classes": [
+      {
+        "index": "barbarian",
+        "name": "Barbarian",
+        "url": "/api/2024/classes/barbarian"
+      },
+      {
+        "index": "fighter",
+        "name": "Fighter",
+        "url": "/api/2024/classes/fighter"
+      },
+      {
+        "index": "sorcerer",
+        "name": "Sorcerer",
+        "url": "/api/2024/classes/sorcerer"
+      }
+    ],
+    "races": [],
+    "url": "/api/2024/proficiencies/saving-throw-con",
+    "reference": {
+      "index": "con",
+      "name": "CON",
+      "url": "/api/2024/ability-scores/con"
+    }
+  },
+  {
+    "index": "saving-throw-int",
+    "type": "Saving Throws",
+    "name": "Saving Throw: INT",
+    "description": "Intelligence saving throws",
+    "classes": [
+      {
+        "index": "druid",
+        "name": "Druid",
+        "url": "/api/2024/classes/druid"
+      },
+      {
+        "index": "rogue",
+        "name": "Rogue",
+        "url": "/api/2024/classes/rogue"
+      },
+      {
+        "index": "wizard",
+        "name": "Wizard",
+        "url": "/api/2024/classes/wizard"
+      }
+    ],
+    "races": [],
+    "url": "/api/2024/proficiencies/saving-throw-int",
+    "reference": {
+      "index": "int",
+      "name": "INT",
+      "url": "/api/2024/ability-scores/int"
+    }
+  },
+  {
+    "index": "saving-throw-wis",
+    "type": "Saving Throws",
+    "name": "Saving Throw: WIS",
+    "description": "Wisdom saving throws",
+    "classes": [
+      {
+        "index": "cleric",
+        "name": "Cleric",
+        "url": "/api/2024/classes/cleric"
+      },
+      {
+        "index": "druid",
+        "name": "Druid",
+        "url": "/api/2024/classes/druid"
+      },
+      {
+        "index": "paladin",
+        "name": "Paladin",
+        "url": "/api/2024/classes/paladin"
+      },
+      {
+        "index": "warlock",
+        "name": "Warlock",
+        "url": "/api/2024/classes/warlock"
+      },
+      {
+        "index": "wizard",
+        "name": "Wizard",
+        "url": "/api/2024/classes/wizard"
+      }
+    ],
+    "races": [],
+    "url": "/api/2024/proficiencies/saving-throw-wis",
+    "reference": {
+      "index": "wis",
+      "name": "WIS",
+      "url": "/api/2024/ability-scores/wis"
+    }
+  },
+  {
+    "index": "saving-throw-cha",
+    "type": "Saving Throws",
+    "name": "Saving Throw: CHA", 
+    "description": "Charisma saving throws",
+    "classes": [
+      {
+        "index": "bard",
+        "name": "Bard",
+        "url": "/api/2024/classes/bard"
+      },
+      {
+        "index": "cleric",
+        "name": "Cleric",
+        "url": "/api/2024/classes/cleric"
+      },
+      {
+        "index": "paladin",
+        "name": "Paladin",
+        "url": "/api/2024/classes/paladin"
+      },
+      {
+        "index": "sorcerer",
+        "name": "Sorcerer",
+        "url": "/api/2024/classes/sorcerer"
+      },
+      {
+        "index": "warlock",
+        "name": "Warlock",
+        "url": "/api/2024/classes/warlock"
+      }
+    ],
+    "races": [],
+    "url": "/api/2024/proficiencies/saving-throw-cha",
+    "reference": {
+      "index": "cha",
+      "name": "CHA",
+      "url": "/api/2024/ability-scores/cha"
+    }
+  }
+]
